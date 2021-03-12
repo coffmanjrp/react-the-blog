@@ -54,3 +54,20 @@ a {
   padding: 20px;
   max-width: 600px;
 }
+
+/* Blog previews / list */
+.blog-preview {
+  margin: 20px 0;
+  padding: 10px 16px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2 {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  color: var(--primary);
+}
