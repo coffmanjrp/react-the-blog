@@ -92,3 +92,61 @@ a {
   font-family: inherit;
   cursor: pointer;
 }
+
+/* Create new blog form */
+.create {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.create h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: var(--primary);
+}
+.create label {
+  display: block;
+  text-align: left;
+}
+
+.create input,
+.create textarea,
+.create select {
+  display: block;
+  margin: 10px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: inherit;
+}
+
+.create input:focus,
+.create textarea:focus,
+.create select:focus {
+  outline: none;
+}
+
+.create button {
+  padding: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  transition: transform 0.15s ease;
+  cursor: pointer;
+}
+
+.create button:focus {
+  outline: none;
+}
+
+.create button:active {
+  transform: scale(1.05);
+}
+
+.create button:disabled {
+  background-color: #666;
+  user-select: none;
+}
