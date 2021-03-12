@@ -3,11 +3,17 @@ import BlogList from './BlogList';
 
 const Home = () => {
   const [blogs, setBlogs] = useState(null);
+  const [isPending, setIsPending] = useState(true);
 
   useEffect(() => {
-    fetch('/blogs')
-      .then((res) => res.json())
-      .then((data) => setBlogs(data));
+    setTimeout(() => {
+      fetch('/blogs')
+        .then((res) => res.json())
+        .then((data) => {
+          setBlogs(data);
+          setIsPending(false);
+        });
+    }, 1000);
 
     // eslint-disable-next-line
   }, []);
@@ -15,6 +21,7 @@ const Home = () => {
   return (
     <>
       <div className="home">
+        {isPending && <h2>Loading...</h2>}
         {blogs && (
           <>
             <BlogList blogs={blogs} title={'All Blogs!'} />
