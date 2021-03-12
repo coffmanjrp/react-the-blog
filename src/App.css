@@ -71,3 +71,24 @@ a {
   font-size: 20px;
   color: var(--primary);
 }
+
+/* Blog details page */
+.blog-details h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  padding: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
