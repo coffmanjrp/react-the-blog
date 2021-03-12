@@ -93,6 +93,14 @@ a {
   cursor: pointer;
 }
 
+.blog-details button:focus {
+  outline: none;
+}
+
+.blog-details button:active {
+  transform: scale(1.05);
+}
+
 /* Create new blog form */
 .create {
   margin: 0 auto;

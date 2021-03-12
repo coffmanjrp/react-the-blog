@@ -17,36 +17,6 @@
       "body": "lorem ipsum...",
       "author": "mario",
       "id": 3
-    },
-    {
-      "title": "Hello",
-      "body": "World",
-      "author": "mario",
-      "id": 4
-    },
-    {
-      "title": "Omake",
-      "body": "nonakami",
-      "author": "luigi",
-      "id": 5
-    },
-    {
-      "title": "Test",
-      "body": "Its testing",
-      "author": "yoshi",
-      "id": 6
-    },
-    {
-      "title": "fdfd",
-      "body": "dfdfd",
-      "author": "mario",
-      "id": 7
-    },
-    {
-      "title": "lorem",
-      "body": "ipsum",
-      "author": "yoshi",
-      "id": 8
     }
   ]
 }
