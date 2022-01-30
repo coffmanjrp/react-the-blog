@@ -1,6 +1,6 @@
 # The Blog
 
-![The Blog](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643524193/coffmanjrp.io/the_blog_6b166046ab.png)
+![The Blog](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643524544/coffmanjrp.io/the_blog_6b166046ab.png)
 
 ## How to start
 
